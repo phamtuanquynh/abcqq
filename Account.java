@@ -2,8 +2,7 @@ public class Account {
     private String accountNumber;
     private String owner;
     private long balance;
-
-
+    
     public Account(String accountNumber, String owner, long balance) {
         this.accountNumber = accountNumber;
         this.owner = owner;
