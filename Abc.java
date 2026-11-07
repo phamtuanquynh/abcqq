@@ -1,13 +1,13 @@
 public class Abc {
         public static void main(String[] args) {
             String input = " tx-2026-0042 ";
-
-            String code = input.strip().toUpperCase();     // "TX-2026-0042"
+                
+            String code = input.strip().toUpperCase();    
 
             boolean startsWithTx = code.startsWith("TX-");
 
-            String[] parts = code.split("-");              // ["TX", "2026", "0042"]
-            String year = parts[1];                        // "2026"
+            String[] parts = code.split("-");              
+            String year = parts[1];                        
 
             boolean same = code.equals("TX-2026-0042");
 
